@@ -8,13 +8,13 @@
     line-height: 0.8;
     color: rgb(249, 247, 255);
 }
+.text-nodo h1 b{
+    color: rgba(202, 39, 88, 0.87);
+}
 .text-nodo h2{
     font-family: 'Poppins';
     font-weight: 300;
-    font-size: 30px;
+    font-size: 34px;
     line-height: 1;
     color: rgb(0, 0, 0);
-}
-.text-nodo h1 b{
-    color: rgba(202, 39, 88, 0.87);
 }
