@@ -1,10 +1,11 @@
 import React from 'react'
 import '../Sections.css'
+import HomeContainer from '../../container/Home/HomeContainer'
 
 const Section1 = () => {
     return(
-        <div className='section section-1'>
-            Section
+        <div className='section section-1' id='section-1'>
+            <HomeContainer />
         </div>
     )
 }

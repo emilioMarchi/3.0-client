@@ -3,8 +3,8 @@ import '../Sections.css'
 
 const Section3 = () => {
     return(
-        <div className='section section-3'>
-            Section
+        <div className='section section-3' id='section-3'>
+            
         </div>
     )
 }

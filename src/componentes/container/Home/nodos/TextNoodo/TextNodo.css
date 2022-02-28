@@ -1,0 +1,17 @@
+.text-nodo h1{
+    font-family: 'Libre Franklin';
+    font-weight: 800;
+    font-size: 82px;
+    line-height: 0.8;
+    color: rgb(249, 247, 255);
+}
+.text-nodo h2{
+    font-family: 'Poppins';
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 1;
+    color: rgb(0, 0, 0);
+}
+.text-nodo h1 b{
+    color: rgba(44, 24, 136, 0.87);
+}
