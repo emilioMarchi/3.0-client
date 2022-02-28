@@ -5,23 +5,17 @@
     display: flex;
     align-items: center;
     justify-content: center;
-
-    background-color: rgba(59, 38, 59, 0.123);
     
-    border: 2px solid rgb(46, 31, 46);
-    border-radius: 5px;
+    border: 2px solid rgb(187, 187, 187);
+    border-radius: 25px;
 }
 .header-btn {
     padding: 1rem;
-    color: white;
+    color: rgb(255, 255, 255);
     font-family: 'Poppins';
-    font-weight: 500;
+    font-weight: 600;
     margin: 0 1rem;
 }
-.packeges {
-
-}
-
 .icon {
     color: rgb(197, 148, 219);
     font-size: 35px;
