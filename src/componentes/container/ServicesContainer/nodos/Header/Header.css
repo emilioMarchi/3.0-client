@@ -1,0 +1,28 @@
+.services-header {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: rgba(59, 38, 59, 0.123);
+    
+    border: 2px solid rgb(46, 31, 46);
+    border-radius: 5px;
+}
+.header-btn {
+    padding: 1rem;
+    color: white;
+    font-family: 'Poppins';
+    font-weight: 500;
+    margin: 0 1rem;
+}
+.packeges {
+
+}
+
+.icon {
+    color: rgb(197, 148, 219);
+    font-size: 35px;
+}

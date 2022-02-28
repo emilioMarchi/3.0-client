@@ -9,9 +9,9 @@ function App() {
   return (
     <div className="App">
       <Header/>
-      <article className='container'>
+      <article>
         <Section1/>
-        <Section2/>
+        <Section2  />
         <Section3/>
       </article>
     </div>
