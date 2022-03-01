@@ -10,7 +10,6 @@ export default function Card(props) {
                 <div className='header-card'>  
                     <img src={item.img} />
                 </div>
-                
                 <div className='body-card'>
                     <h3>{item.title}</h3>
                     {
