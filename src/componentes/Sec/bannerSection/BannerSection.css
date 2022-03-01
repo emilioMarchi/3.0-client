@@ -1,0 +1,24 @@
+.banner-section {
+    width: 100%; height: 60vh;
+    color: white;
+    padding: 5rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner-section-content {
+    width: 100%; height: 100%;
+    text-align: center;
+}
+.line {
+    width: 100%; height: 2px;
+    background-color: white;
+}
+.nodo-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nodo {
+    height: 100%;
+}
