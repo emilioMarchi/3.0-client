@@ -26,5 +26,8 @@
     .services-header {
         width: 85%;
         margin-bottom: 1rem;
+    }
+    .services-header div {
+        font-size: 18px;
     }   
 }

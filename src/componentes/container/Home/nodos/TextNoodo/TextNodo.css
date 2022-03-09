@@ -28,15 +28,15 @@
     .text-nodo h1{
         height: 100vh;
         overflow-wrap: break-word;
-        padding: 8rem 1rem;
-        font-size: 61px;
+        padding: 7rem 0.5rem;
+        font-size: 56px;
         line-height: 0.9;
     }
     .text-nodo h2{
         height: 30vh;
         text-align: center;
         padding: 1rem;
-        font-size: 35px;
+        font-size: 28px;
         font-weight: 500;
     }
   }

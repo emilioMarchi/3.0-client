@@ -14,12 +14,8 @@
   @media only screen and (max-width: 576px) {
 
     .img-nodo{
-      width: 100%; height: 90%;
-      position: absolute;
-      z-index: -1;
-      background-image: url('../../../../../../public/img/home-gif-3.gif');
-      background-size: 32rem;
-      background-repeat: no-repeat;
-      background-position:bottom;
+      width: 100%; height: 95%;
+      background-size: 26rem;
+      background-position: bottom;
     }
   }
