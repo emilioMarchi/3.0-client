@@ -67,3 +67,31 @@
     border: solid 2px white;
     border-radius: 0.5rem;
 }
+
+
+
+@media only screen and (max-width: 576px) {
+    .contact-content {
+        display: block;
+    }
+
+
+    .form-contact {
+        height: 50%;
+    }
+
+    .form-text {
+        
+        width: 100%;
+    }
+    .form-text h3 {
+        padding-top: 2rem;
+        overflow-wrap: break-word;
+        font-size: 52px;
+        line-height: 0.9;
+    }
+    .form-text .line {
+        width: 75%; height: 6px;
+        margin: 2rem 0;
+    }
+}

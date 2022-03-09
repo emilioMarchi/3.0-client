@@ -1,19 +1,25 @@
 .img-nodo {
-    width: 100vw;
-    text-align: center;
-    overflow: hidden;
-}
-.img-nodo img {
+  height: 100vh;
+  position: absolute;
+  z-index: -1;
+  background-image: url('../../../../../../public/img/home-gif-3.gif');
+  background-size: 28rem;
+  background-repeat: no-repeat;
+  background-position:center;
+  }
+  .img-nodo img {
     height: 580px;
-}
+  }
+  
+  @media only screen and (max-width: 576px) {
 
-@media only screen and (max-width: 576px) {
-
-    .img-nodo img {
+    .img-nodo{
+      width: 100%; height: 90%;
       position: absolute;
-      z-index: -1;  
-      top: 14rem;
-      left:-3rem;
-      height: 575px;
+      z-index: -1;
+      background-image: url('../../../../../../public/img/home-gif-3.gif');
+      background-size: 32rem;
+      background-repeat: no-repeat;
+      background-position:bottom;
     }
   }
