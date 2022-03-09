@@ -20,3 +20,11 @@
     color: rgb(197, 148, 219);
     font-size: 35px;
 }
+
+
+@media only screen and (max-width: 576px) {
+    .services-header {
+        width: 85%;
+        margin-bottom: 1rem;
+    }   
+}

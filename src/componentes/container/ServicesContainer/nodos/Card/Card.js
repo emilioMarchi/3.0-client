@@ -16,7 +16,11 @@ export default function Card(props) {
                         (()=>{
                             const items = item.itemDescription
                             return(
-                                <h4>{items[0]}<br/>{items[1]}<br/>{items[2]}<br/></h4>
+                                <div>
+                                    <h4>{`${items[0]}, `}</h4>
+                                    <h4>{`${items[1]}, `}</h4>
+                                    <h4>{items[2]}</h4>
+                                </div>
                             )
                         })()
                     }

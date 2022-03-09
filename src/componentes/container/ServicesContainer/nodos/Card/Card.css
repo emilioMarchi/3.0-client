@@ -64,3 +64,44 @@
     font-size: 18px;
     background-color: rgba(19, 0, 24, 0.308);
 }
+
+
+@media only screen and (max-width: 576px) {
+    .services-card {
+        width: 80%; height: 30%;
+        margin-bottom: 0.5rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .header-card {
+        height: 25%;
+    }
+    .header-card img {
+        width: 20%;
+        padding: 0.5rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    .body-card {
+        height: 30%;
+    }
+    .body-card h3 {
+        font-size: 24px;
+    }
+    .body-card div {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .body-card div h4 {
+        font-size: 12px;
+    }
+
+    .button {
+        font-size: 15px;
+        margin-top: 2rem;
+    }
+}
