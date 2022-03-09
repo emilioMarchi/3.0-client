@@ -1,6 +1,19 @@
 .img-nodo {
+    width: 100vw;
     text-align: center;
+    overflow: hidden;
 }
 .img-nodo img {
     height: 580px;
 }
+
+@media only screen and (max-width: 576px) {
+
+    .img-nodo img {
+      position: absolute;
+      z-index: -1;  
+      top: 14rem;
+      left:-3rem;
+      height: 575px;
+    }
+  }

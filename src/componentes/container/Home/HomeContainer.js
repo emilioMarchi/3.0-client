@@ -6,7 +6,7 @@ import TextNodo from './nodos/TextNoodo/TextNodo'
 
 export default function HomeContainer(){
     return(
-        <div className='home-container d-flex'>
+        <div className='home-container'>
             <ImgNodo  />
             <TextNodo />
         </div>

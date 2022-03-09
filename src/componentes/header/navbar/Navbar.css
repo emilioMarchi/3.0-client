@@ -1,28 +1,32 @@
 .nav {
-    width: 33%;
-    
+    width: 40%;
+    display: flex;
+    justify-content: end;
 }
-.nav ul{
-    width: 100%;
+.nav-border {
+    width: 20rem; height: 3rem;
+}
+.nav .nav-border ul{
+    height: 3rem;
     margin: 0;
     padding: 0;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-.nav ul li {
+.nav .nav-border ul li {
     list-style: none;
     padding: 1rem 1rem;
 }
-.nav ul li a {
+.nav .nav-border ul li a {
     color: white;
     text-decoration: none;
     font-family: 'Libre Franklin';
     font-size: 15px;
-    font-weight: 500;
+    font-weight: 100;
     letter-spacing: 2.4px;
     transition: color 0.2s;
 }
-.nav ul li a:hover {
+.nav .nav-border ul li a:hover {
     color: rgb(206, 173, 228);
 }

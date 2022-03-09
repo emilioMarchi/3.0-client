@@ -1,7 +1,4 @@
 import React, {useContext} from 'react'
-import { ServicesContext } from '../../ServicesContainerProvider';
-
-import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 import './List.css'
 
@@ -36,7 +33,7 @@ export default function List() {
         {
             categoriesData.map((item)=>{
                 return(
-                    <Card data={categoriesData[item.id]} />
+                    <Card key={item.id} data={categoriesData[item.id]} />
                 )
             })
         }
