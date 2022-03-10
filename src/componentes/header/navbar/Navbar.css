@@ -30,3 +30,44 @@
 .nav .nav-border ul li a:hover {
     color: rgb(206, 173, 228);
 }
+.nav-mobile {
+    display: none;
+}
+
+@media only screen and (max-width: 576px) {
+    .header {
+        height: 6vh;
+    }
+    .nav .nav-border {
+        width: 0px;
+        display: none;
+    }
+
+
+    .nav-mobile {
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: -1;
+        display: flex;
+        width: 75%; height: 100vh;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.89);        transition: all 1s;
+    }
+    .nav-mobile ul{
+        width: 100%;
+        margin: 5rem 0 0 0;
+        padding: 0;
+    }
+    .nav-mobile ul li {
+        width: 100%;
+        list-style: none;
+        margin: 1.5rem 0.5rem;
+    }
+    .nav-mobile ul li a {
+        text-decoration: none;
+        color: white;
+        font-size: 24px;
+        width: 8rem;
+    }
+}
