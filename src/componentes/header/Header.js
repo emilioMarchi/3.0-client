@@ -22,6 +22,7 @@ const Header = () => {
             <img src='img/logo.png' className='logo-header' />
             <Navbar navState={navState}/>
             <FontAwesomeIcon onClick={handleNav} className='bar-menu' icon={faBars} />
+            <div className='line'></div>
         </div>
     )
 }

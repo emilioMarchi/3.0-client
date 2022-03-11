@@ -1,12 +1,12 @@
 .text-nodo {
-    width: 100%; height: 100vh;
-    padding: 10% 0% 0% 40%;
+    width: 100%; height: 100%;
+    padding: 14vh 0% 0% 47%;
 }
 .text-nodo h1{
     font-family: 'Libre Franklin';
     font-weight: 800;
-    font-size: 110px;
-    line-height: 85px;
+    font-size: 84px;
+    line-height: 65px;
     color: rgb(249, 247, 255);
 }
 .text-nodo h1 b{
@@ -28,15 +28,21 @@
     .text-nodo h1{
         height: 100vh;
         overflow-wrap: break-word;
-        padding: 7rem 0.5rem;
-        font-size: 56px;
+        padding: 7rem 1rem 1rem;
+        font-size: 60px;
         line-height: 0.9;
     }
     .text-nodo h2{
         height: 30vh;
         text-align: center;
         padding: 1rem;
-        font-size: 28px;
+        font-size: 35px;
         font-weight: 500;
+    }
+  }
+
+  @media only screen and (max-width: 365px) {
+    .text-nodo h1 {
+        font-size: 52px;
     }
   }

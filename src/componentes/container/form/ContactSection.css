@@ -86,12 +86,18 @@
     }
     .form-text h3 {
         padding-top: 2rem;
+        padding-bottom: 2rem;
         overflow-wrap: break-word;
-        font-size: 52px;
+        font-size: 56px;
         line-height: 0.9;
     }
     .form-text .line {
         width: 75%; height: 6px;
         margin: 2rem 0;
+    }
+}
+@media only screen and (max-width: 365px) {
+    .form-text h3 {
+        font-size: 52px;
     }
 }

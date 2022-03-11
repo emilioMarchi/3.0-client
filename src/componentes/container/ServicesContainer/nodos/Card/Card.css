@@ -22,7 +22,7 @@
     padding: 0 1rem;
 }
 .header-card {
-    height: 50%;
+    height: 25%;
 }
 .header-card h3 {
     font-size: 16px;
@@ -37,13 +37,15 @@
 
 
 .body-card {
-    height: 35%;
+    height: 55%;
+    padding-top: 3rem;
 }
 .body-card h3 {
+    height: 12vh;
     font-size: 30px;
     font-weight: 600;
     line-height: 1;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 .body-card h4 {
     font-size: 16px;
@@ -83,7 +85,7 @@
 
     }
     .header-card img {
-        width: 12%;
+        width: 15%;
         padding: 0.5rem 0 0 0;
         margin-left: auto;
         margin-right: auto;
@@ -92,11 +94,11 @@
 
     .body-card {
         height: 30%;
+        padding-top: 1rem;
     }
     .body-card h3 {
-        padding-top: 0.5rem;
-        font-size: 18px;
-        margin-bottom: 0.5rem;
+        font-size: 20px;
+        margin-bottom: 0;
     }
     .body-card div {
         display: flex;
@@ -104,7 +106,7 @@
         align-items: center;
     }
     .body-card div h4 {
-        font-size: 14px;
+        font-size: 16px;
         font-weight: 300;
     }
 

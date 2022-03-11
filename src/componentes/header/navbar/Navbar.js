@@ -15,6 +15,7 @@ const Navbar = () => {
         <nav className='nav'>
             <div className='nav-border'>
                 <ul>
+                    <li><a onClick={handleNav} href='#section-1'>Home</a></li>
                     <li><a href='#section-2'>Servicios</a></li>
                     <li><a href='#section-3'>Contacto</a></li>
                 </ul>
